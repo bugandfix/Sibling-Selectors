@@ -1,0 +1,21 @@
+html{
+    padding: 100px;
+}
+.button{
+    padding: 20px 18px;
+    background: black;
+    border: none;
+}
+
+.button>.bar{
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-bottom: 6px;
+    background: white;
+    border-radius: 1px;;
+}
+
+.button >.bar:last-child{
+    margin-bottom: 0;
+}
